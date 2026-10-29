@@ -1,0 +1,182 @@
+{
+  "paper_url": "https://arxiv.org/html/2607.08877",
+  "prompt_source": "https://huggingface.co/datasets/mmurz/metaworld_mt50_v3/resolve/main/meta/tasks.jsonl",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "eval_episodes": 25,
+  "adaptation_rollouts": 50,
+  "tasks": [
+    {
+      "task_key": "metaworld_assembly",
+      "env_id": "assembly-v3",
+      "prompt": "Pick up a nut and place it onto a peg",
+      "task_index": 0,
+      "expert_policy": "SawyerAssemblyV3Policy",
+      "paper_base": 0.64,
+      "paper_flowdagger": 0.89
+    },
+    {
+      "task_key": "metaworld_bin_picking",
+      "env_id": "bin-picking-v3",
+      "prompt": "Grasp the puck from one bin and place it into another bin",
+      "task_index": 2,
+      "expert_policy": "SawyerBinPickingV3Policy",
+      "paper_base": 0.56,
+      "paper_flowdagger": 0.69
+    },
+    {
+      "task_key": "metaworld_box_close",
+      "env_id": "box-close-v3",
+      "prompt": "Grasp the cover and close the box with it",
+      "task_index": 3,
+      "expert_policy": "SawyerBoxCloseV3Policy",
+      "paper_base": 0.36,
+      "paper_flowdagger": 0.59
+    },
+    {
+      "task_key": "metaworld_coffee_pull",
+      "env_id": "coffee-pull-v3",
+      "prompt": "Pull a mug from a coffee machine",
+      "task_index": 9,
+      "expert_policy": "SawyerCoffeePullV3Policy",
+      "paper_base": 0.84,
+      "paper_flowdagger": 1.0
+    },
+    {
+      "task_key": "metaworld_dial_turn",
+      "env_id": "dial-turn-v3",
+      "prompt": "Rotate a dial 180 degrees",
+      "task_index": 11,
+      "expert_policy": "SawyerDialTurnV3Policy",
+      "paper_base": 0.2,
+      "paper_flowdagger": 0.75
+    },
+    {
+      "task_key": "metaworld_door_lock",
+      "env_id": "door-lock-v3",
+      "prompt": "Lock the door by rotating the lock clockwise",
+      "task_index": 14,
+      "expert_policy": "SawyerDoorLockV3Policy",
+      "paper_base": 0.44,
+      "paper_flowdagger": 0.75
+    },
+    {
+      "task_key": "metaworld_hammer",
+      "env_id": "hammer-v3",
+      "prompt": "Hammer a screw on the wall",
+      "task_index": 22,
+      "expert_policy": "SawyerHammerV3Policy",
+      "paper_base": 0.4,
+      "paper_flowdagger": 0.84
+    },
+    {
+      "task_key": "metaworld_hand_insert",
+      "env_id": "hand-insert-v3",
+      "prompt": "Insert the gripper into a hole",
+      "task_index": 17,
+      "expert_policy": "SawyerHandInsertV3Policy",
+      "paper_base": 0.84,
+      "paper_flowdagger": 0.99
+    },
+    {
+      "task_key": "metaworld_lever_pull",
+      "env_id": "lever-pull-v3",
+      "prompt": "Pull a lever down 90 degrees",
+      "task_index": 27,
+      "expert_policy": "SawyerLeverPullV3Policy",
+      "paper_base": 0.28,
+      "paper_flowdagger": 0.61
+    },
+    {
+      "task_key": "metaworld_pick_place",
+      "env_id": "pick-place-v3",
+      "prompt": "Pick and place a puck to a goal",
+      "task_index": 30,
+      "expert_policy": "SawyerPickPlaceV3Policy",
+      "paper_base": 0.76,
+      "paper_flowdagger": 0.85
+    },
+    {
+      "task_key": "metaworld_soccer",
+      "env_id": "soccer-v3",
+      "prompt": "Kick a soccer into the goal",
+      "task_index": 37,
+      "expert_policy": "SawyerSoccerV3Policy",
+      "paper_base": 0.24,
+      "paper_flowdagger": 0.44
+    },
+    {
+      "task_key": "metaworld_stick_push",
+      "env_id": "stick-push-v3",
+      "prompt": "Grasp a stick and push a box using the stick",
+      "task_index": 38,
+      "expert_policy": "SawyerStickPushV3Policy",
+      "paper_base": 0.84,
+      "paper_flowdagger": 1.0
+    },
+    {
+      "task_key": "metaworld_door_open",
+      "env_id": "door-open-v3",
+      "prompt": "Open a door with a revolving joint",
+      "task_index": 15,
+      "expert_policy": "SawyerDoorOpenV3Policy",
+      "paper_base": 1.0,
+      "paper_flowdagger": 0.88,
+      "paper_table": 3,
+      "paper_short_name": "Door",
+      "mapping_status": "assumed_from_shorthand_not_explicitly_published"
+    },
+    {
+      "task_key": "metaworld_drawer_open",
+      "env_id": "drawer-open-v3",
+      "prompt": "Open a drawer",
+      "task_index": 19,
+      "expert_policy": "SawyerDrawerOpenV3Policy",
+      "paper_base": 1.0,
+      "paper_flowdagger": 1.0,
+      "paper_table": 3,
+      "paper_short_name": "Drawer",
+      "mapping_status": "assumed_from_shorthand_not_explicitly_published"
+    },
+    {
+      "task_key": "metaworld_faucet_open",
+      "env_id": "faucet-open-v3",
+      "prompt": "Rotate the faucet counter-clockwise",
+      "task_index": 20,
+      "expert_policy": "SawyerFaucetOpenV3Policy",
+      "paper_base": 0.96,
+      "paper_flowdagger": 0.96,
+      "paper_table": 3,
+      "paper_short_name": "Faucet",
+      "mapping_status": "assumed_from_shorthand_not_explicitly_published"
+    },
+    {
+      "task_key": "metaworld_plate_slide",
+      "env_id": "plate-slide-v3",
+      "prompt": "Slide a plate into a cabinet",
+      "task_index": 31,
+      "expert_policy": "SawyerPlateSlideV3Policy",
+      "paper_base": 0.88,
+      "paper_flowdagger": 1.0,
+      "paper_table": 3,
+      "paper_short_name": "Plate",
+      "mapping_status": "assumed_from_shorthand_not_explicitly_published"
+    },
+    {
+      "task_key": "metaworld_push",
+      "env_id": "push-v3",
+      "prompt": "Push the puck to a goal",
+      "task_index": 40,
+      "expert_policy": "SawyerPushV3Policy",
+      "paper_base": 0.96,
+      "paper_flowdagger": 0.56,
+      "paper_table": 3,
+      "paper_short_name": "Push",
+      "mapping_status": "assumed_from_shorthand_not_explicitly_published"
+    }
+  ],
+  "scope": "Primary 12 tasks plus provisional Table 3 held-out mapping; do not present mapping as author-verified."
+}

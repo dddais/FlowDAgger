@@ -1,0 +1,43 @@
+{
+  "date_utc": "2026-10-29T12:26:02.544824+00:00",
+  "authorization": "用户明确要求大幅精简，采用只保留代码和结果总结的归档方式。",
+  "status": "archived_raw_outputs_deleted",
+  "deleted_scope": [
+    "outputs/reproduction_20261028_auto",
+    "docs/reproduction_20261028_auto 下各阶段子目录和旧清理明细"
+  ],
+  "output_files": 2571,
+  "output_bytes": 1254966557,
+  "output_allocated_bytes": 1255609344,
+  "deleted_checkpoints": 114,
+  "superseded_doc_files": 10,
+  "superseded_doc_bytes": 1632771,
+  "summarized_training_runs": 108,
+  "summarized_filter_runs": 6,
+  "summarized_inversion_methods": 8,
+  "summarized_heldout_runs": 15,
+  "preserved_summary_sha256": "b885d6a6ce86ea4f8cd02f4fc6ac57705b2d5f66a664d1604442f2cb3e55c6ee",
+  "original_summary_sha256": "77128e605cc75784205acd704ab4313fde0b9ed29002390fb2db98230f4025f6",
+  "original_core_sha256": {
+    "flowdagger_pi05/train_flowdagger.py": "0c5c20df712a22beaed38b41f7eb3363f26ef3c91cef4a4e1ecf86903c81c707",
+    "flowdagger_pi05/train_utils.py": "03c12cbb9b276bdc1b10bd8c54cf2aedc06eb156fffc4764525a20dec9c9bcdf",
+    "flowdagger_pi05/dagger_loop.py": "cf4b1724db552ce6569627538e497379a52186d4b5a553408fa112bb8d7ed97f",
+    "flowdagger_pi05/steering_policy.py": "fe82cee07f4ed3d6293341fd5c844cd1733fc45c185bba72840e5eabc7e0e956",
+    "flowdagger_pi05/flow_matching_inverter.py": "b5f435aef0c6b7c9ea79fcbd6a63e7f33a7330f3581d90495d16b7ce5a1b3519",
+    "flowdagger_pi05/action_converter.py": "6bf580b0163293b468ebfd44c51ad908d77c9be9f3f3a1ca93f5991a3a33ff05",
+    "flowdagger_pi05/metaworld_pi05_adapter.py": "f4b4fb5d00da9a8ddfd4ef801c759acdf203d4ee7efc174b429682ec40d52720",
+    "shared/intervention_handler.py": "07f6e47ab14cef8c7ce437784c3bbd689b8620c50f8ef88912f811b7eb9aa15a",
+    "shared/experts/metaworld_expert.py": "f3253a6ca28ad69369f6bf9c2e70dc358621564a70ed8d3838665c0858023d7f"
+  },
+  "limitations": "旧模型无法直接重评估；逐episode和原始路由证据已删除。重新复现需准备基座、重新采集或下载输入并重新训练。",
+  "finished_utc": "2026-10-29T12:29:49.218002+00:00",
+  "code_change": "reproduction_reset_velocity_probe.py now requires explicit --velocity_audit; the deleted historical report is no longer a default.",
+  "retained_files": [
+    "RESULTS.md",
+    "results.json",
+    "METHODS_AND_AUDIT.md",
+    "USAGE_ALL_PROTOCOLS.md",
+    "CLEANUP.md",
+    "archive_manifest.json"
+  ]
+}

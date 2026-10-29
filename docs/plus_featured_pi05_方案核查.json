@@ -1,0 +1,159 @@
+{
+  "status": "planning_only_no_training_or_model_loading",
+  "date": "2026-10-29",
+  "manifest": "/home/dais/workspace/LIBERO-Recovery/datasets/plus_featured/data_pool.json",
+  "manifest_sha256": "034fc702c6e48d71ce3e3ee9c6e7df54f00e271ac3eb39aa3626639e0818dca5",
+  "window_policy": {
+    "horizon": 10,
+    "stride": 10,
+    "tail": "drop",
+    "split": "all_episodes_before_train_validation_split",
+    "inversion_filter": "not_applied"
+  },
+  "tasks": [
+    {
+      "task_index": 0,
+      "task_key": "libero_90/KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate",
+      "description_zh": "前方黑碗放到盘子上",
+      "standard_episodes": 50,
+      "standard_frames": 6893,
+      "standard_windows_h10_stride10_full": 668,
+      "recovery_episodes": 40,
+      "recovery_frames": 5993,
+      "recovery_windows_h10_stride10_full": 585,
+      "total_windows_h10_stride10_full": 1253
+    },
+    {
+      "task_index": 1,
+      "task_key": "libero_90/KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it",
+      "description_zh": "打开上层抽屉并放入碗",
+      "standard_episodes": 50,
+      "standard_frames": 9994,
+      "standard_windows_h10_stride10_full": 973,
+      "recovery_episodes": 25,
+      "recovery_frames": 8492,
+      "recovery_windows_h10_stride10_full": 837,
+      "total_windows_h10_stride10_full": 1810
+    },
+    {
+      "task_index": 2,
+      "task_key": "libero_90/KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet",
+      "description_zh": "番茄酱放入上层抽屉",
+      "standard_episodes": 50,
+      "standard_frames": 10512,
+      "standard_windows_h10_stride10_full": 1030,
+      "recovery_episodes": 25,
+      "recovery_frames": 9272,
+      "recovery_windows_h10_stride10_full": 917,
+      "total_windows_h10_stride10_full": 1947
+    },
+    {
+      "task_index": 3,
+      "task_key": "libero_90/KITCHEN_SCENE1_open_the_bottom_drawer_of_the_cabinet",
+      "description_zh": "打开底层抽屉",
+      "standard_episodes": 50,
+      "standard_frames": 7156,
+      "standard_windows_h10_stride10_full": 694,
+      "recovery_episodes": 20,
+      "recovery_frames": 3428,
+      "recovery_windows_h10_stride10_full": 332,
+      "total_windows_h10_stride10_full": 1026
+    },
+    {
+      "task_index": 4,
+      "task_key": "libero_90/KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle",
+      "description_zh": "前方黑碗叠到中间黑碗上",
+      "standard_episodes": 50,
+      "standard_frames": 6415,
+      "standard_windows_h10_stride10_full": 614,
+      "recovery_episodes": 20,
+      "recovery_frames": 4152,
+      "recovery_windows_h10_stride10_full": 406,
+      "total_windows_h10_stride10_full": 1020
+    },
+    {
+      "task_index": 5,
+      "task_key": "libero_90/KITCHEN_SCENE3_put_the_moka_pot_on_the_stove",
+      "description_zh": "摩卡壶放到炉灶上",
+      "standard_episodes": 50,
+      "standard_frames": 7553,
+      "standard_windows_h10_stride10_full": 731,
+      "recovery_episodes": 25,
+      "recovery_frames": 7388,
+      "recovery_windows_h10_stride10_full": 729,
+      "total_windows_h10_stride10_full": 1460
+    },
+    {
+      "task_index": 6,
+      "task_key": "libero_90/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate",
+      "description_zh": "白色马克杯放到盘子上",
+      "standard_episodes": 50,
+      "standard_frames": 7885,
+      "standard_windows_h10_stride10_full": 767,
+      "recovery_episodes": 20,
+      "recovery_frames": 2545,
+      "recovery_windows_h10_stride10_full": 246,
+      "total_windows_h10_stride10_full": 1013
+    },
+    {
+      "task_index": 7,
+      "task_key": "libero_90/KITCHEN_SCENE10_put_the_butter_at_the_front_in_the_top_drawer_of_the_cabinet_and_close_it",
+      "description_zh": "前方黄油放入上层抽屉并关闭",
+      "standard_episodes": 50,
+      "standard_frames": 9008,
+      "standard_windows_h10_stride10_full": 878,
+      "recovery_episodes": 20,
+      "recovery_frames": 10647,
+      "recovery_windows_h10_stride10_full": 1055,
+      "total_windows_h10_stride10_full": 1933
+    },
+    {
+      "task_index": 8,
+      "task_key": "libero_goal/put_the_wine_bottle_on_the_rack",
+      "description_zh": "葡萄酒瓶放到酒架上",
+      "standard_episodes": 50,
+      "standard_frames": 8801,
+      "standard_windows_h10_stride10_full": 856,
+      "recovery_episodes": 33,
+      "recovery_frames": 8376,
+      "recovery_windows_h10_stride10_full": 821,
+      "total_windows_h10_stride10_full": 1677
+    },
+    {
+      "task_index": 9,
+      "task_key": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+      "description_zh": "奶油奶酪放入篮子",
+      "standard_episodes": 50,
+      "standard_frames": 7166,
+      "standard_windows_h10_stride10_full": 694,
+      "recovery_episodes": 90,
+      "recovery_frames": 18068,
+      "recovery_windows_h10_stride10_full": 1764,
+      "total_windows_h10_stride10_full": 2458
+    }
+  ],
+  "totals": {
+    "standard_episodes": 500,
+    "standard_frames": 81383,
+    "standard_windows_h10_stride10_full": 7905,
+    "recovery_episodes": 318,
+    "recovery_frames": 78361,
+    "recovery_windows_h10_stride10_full": 7692,
+    "total_windows_h10_stride10_full": 15597
+  },
+  "environment_versions": {
+    "numpy": "2.1.3",
+    "jax": "0.8.0",
+    "mujoco": "3.3.0",
+    "lerobot": "0.3.3"
+  },
+  "module_discovery": {
+    "jax": true,
+    "flax": true,
+    "openpi": true,
+    "libero": false,
+    "robosuite": false,
+    "mujoco": true,
+    "lerobot": true
+  }
+}

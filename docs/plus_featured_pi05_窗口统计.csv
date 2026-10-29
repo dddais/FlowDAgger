@@ -1,0 +1,11 @@
+﻿task_index,task_key,description_zh,standard_episodes,standard_frames,standard_windows_h10_stride10_full,recovery_episodes,recovery_frames,recovery_windows_h10_stride10_full,total_windows_h10_stride10_full
+0,libero_90/KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate,前方黑碗放到盘子上,50,6893,668,40,5993,585,1253
+1,libero_90/KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it,打开上层抽屉并放入碗,50,9994,973,25,8492,837,1810
+2,libero_90/KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet,番茄酱放入上层抽屉,50,10512,1030,25,9272,917,1947
+3,libero_90/KITCHEN_SCENE1_open_the_bottom_drawer_of_the_cabinet,打开底层抽屉,50,7156,694,20,3428,332,1026
+4,libero_90/KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle,前方黑碗叠到中间黑碗上,50,6415,614,20,4152,406,1020
+5,libero_90/KITCHEN_SCENE3_put_the_moka_pot_on_the_stove,摩卡壶放到炉灶上,50,7553,731,25,7388,729,1460
+6,libero_90/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate,白色马克杯放到盘子上,50,7885,767,20,2545,246,1013
+7,libero_90/KITCHEN_SCENE10_put_the_butter_at_the_front_in_the_top_drawer_of_the_cabinet_and_close_it,前方黄油放入上层抽屉并关闭,50,9008,878,20,10647,1055,1933
+8,libero_goal/put_the_wine_bottle_on_the_rack,葡萄酒瓶放到酒架上,50,8801,856,33,8376,821,1677
+9,libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket,奶油奶酪放入篮子,50,7166,694,90,18068,1764,2458
