@@ -1,0 +1,38 @@
+{
+  "dataset_root": "/home/dais/workspace/LIBERO-Recovery/datasets/plus_featured",
+  "checkpoint": "/mnt/public1/dais/workspace/FlowDAgger/outputs/flow_recovery/auto_20261029_2350/verified_model_download/checkpoint",
+  "openpi_config": "pi05_libero",
+  "cache_dir": "/mnt/public1/dais/workspace/FlowDAgger/outputs/flow_recovery/auto_20261029_2350/cache/task_01",
+  "output_dir": "/mnt/public1/dais/workspace/FlowDAgger/outputs/flow_recovery/auto_20261029_2350/standard_recovery_seed42",
+  "tasks": [
+    1
+  ],
+  "sources": [
+    "standard",
+    "recovery"
+  ],
+  "split_seed": 42,
+  "validation_fraction": 0.2,
+  "horizon": 10,
+  "stride": 10,
+  "tail": "last_full",
+  "denoise_steps": 10,
+  "fp_steps": 5,
+  "inversion_batch_size": 4,
+  "max_normalized_mse": 0.001,
+  "seed": 42,
+  "recovery_fraction": 0.5,
+  "batch_size": 256,
+  "train_steps": 4000,
+  "log_every": 100,
+  "save_every": 1000,
+  "learning_rate": 0.0001,
+  "hidden_dims": [
+    256,
+    256,
+    256
+  ],
+  "latent_dim": 256,
+  "output_bound": "linear",
+  "action_magnitude": 3.0
+}

@@ -1,5 +1,7 @@
 # FlowDAgger
 
+本地 FlowDAgger × LIBERO-Recovery 离线适配：[实现说明](docs/libero_offline_implementation.md) · [使用教程](docs/libero_offline_usage.md)。
+
 Official implementation of FlowDAgger: Human-in-the-Loop Adaptation of Generative Robot Policies in Latent Space, published at the 10th Conference on Robot Learning (CoRL 2026).
 
 Project page: https://microsoft.github.io/FlowDAgger
